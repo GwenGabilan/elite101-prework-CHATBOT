@@ -37,6 +37,7 @@ def chatbot():
   user_option = input("Enter how can I help you today: ")
   name = input("What is your name?: ")
   option_response(user_option,name)
+  print("hi")
 
 # Start chatbot
 chatbot()
