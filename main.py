@@ -1,4 +1,3 @@
-import random
 
 def welcome_user():
   print("Hello! I am your Clothing Store Chatbot!")
@@ -85,13 +84,13 @@ def user_feedback(name):
   else:
       print("Value is three digits.")
 
-feedback = input("How was your experience with our service? (good/bad): ")
-if feedback == "good":
-  print("Thank you for your feedback!")
-elif feedback == "bad":
-  print("We are sorry to hear that. Please let us know how we can improve.")
-  feedback_reason = input("What is the reason for your feedback?: ")
-  print( "We will take" + feedback_reason +  "into consideration.")
+  feedback = input("How was your experience with our service? (good/bad): ")
+  if feedback == "good":
+    print("Thank you for your feedback!")
+  elif feedback == "bad":
+    print("We are sorry to hear that. Please let us know how we can improve.")
+    feedback_reason = input("What is the reason for your feedback?: ")
+    print( "We will take" + feedback_reason +  " into consideration.")
 
   
 #function for exchange
